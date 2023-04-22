@@ -1,0 +1,16 @@
+FROM nginx[D[D[D[D[D[D[D[D[D[D
+
+WORKDIR /etc/nginx
+
+COPY nginx.conf .
+
+EXPOSE 80 443
+[A[A[A[A
+
+[ARUN rm nginx.conf
+[B
+[ACOPY nginx.conf .
+
+EXPOSE 80 443
+
+CMD ["nginx", "-g", "daemon off;"]
